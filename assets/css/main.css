@@ -88,7 +88,7 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #190101;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -112,7 +112,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: #460808;
 		line-height: 1.5em;
 	}
 
@@ -1778,6 +1778,7 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
+			width: 33%;
 			margin: 0 2em 2em 0;
 		}
 
@@ -1988,7 +1989,7 @@ input, select, textarea {
 			background: #fff;
 			margin: 0;
 			padding: 1em 0 1em 0;
-			font-size: 0.8em;
+			font-size: 0.7em;
 		}
 
 			.item header h3 {
@@ -2112,8 +2113,9 @@ input, select, textarea {
 		#logo p {
 			position: relative;
 			display: block;
-			font-size: 0.6em;
-			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.7em;
+			color: rgba(0, 0, 0, 0.5);
+			font-weight: bold;
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
 		}
@@ -2137,7 +2139,8 @@ input, select, textarea {
 			#nav ul li a {
 				display: block;
 				padding: 0.5em 1.5em 0.5em 1.5em;
-				color: rgba(255, 255, 255, 0.5);
+				color: rgba(0, 0, 0, 0.5);
+				font-weight: bold;
 				text-decoration: none;
 				outline: 0;
 				border: 0;
@@ -2169,7 +2172,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+						color: #e6dbdb;
 					}
 
 /* Footer */
