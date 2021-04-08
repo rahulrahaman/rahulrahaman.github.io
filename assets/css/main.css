@@ -261,7 +261,7 @@ input, select, textarea {
 /* Row */
 
 	.row {
-		display: flex;
+		display: grid;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
@@ -2440,7 +2440,7 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				width: 275px;
-				background: #222729 url("images/overlay.png");
+				background: #86b3b1 url("images/overlay.png");
 				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
 			}
 
