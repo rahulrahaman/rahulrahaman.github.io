@@ -153,6 +153,7 @@
 								href = $a.attr('href'),
 								target = $a.attr('target');
 
+							/*
 							if (!href || href == '#' || href == '' || href == '#' + id)
 								return;
 
@@ -171,7 +172,7 @@
 									else
 										window.location.href = href;
 
-								}, config.delay + 10);
+								}, config.delay + 10);*/
 
 						});
 
